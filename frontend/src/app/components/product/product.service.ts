@@ -19,9 +19,13 @@ export class ProductService {
       horizontalPosition: "right",
       verticalPosition: "top",
     });
-  }
+  };
 
   create(product: Product): Observable<Product> {
     return this.http.post<Product>(this.baseURL, product);
   };
+
+  read(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.baseURL);
+  }
 }
