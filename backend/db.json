@@ -1,23 +1,13 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Azul",
-      "price": 5.89
+      "name": "Samsung S21+",
+      "price": "5889.99",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.89
-    },
-    {
-      "id": 3,
-      "name": "Samsung S20+ Ultra",
-      "price": "7520.99"
-    },
-    {
-      "name": "Veio do formulario",
-      "price": "9.99",
+      "name": "MacBook Air 2020",
+      "price": "12889.99",
       "id": 4
     }
   ]
